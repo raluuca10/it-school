@@ -1,0 +1,16 @@
+.welcome {
+background-color: var(--bg-primary);
+height: 50vh;
+
+display: flex;
+justify-content: center;
+align-items:center;
+}
+.welcome h1, .welcome p {
+    color:var(--text-light);
+    text-align: center;
+}
+/*Stilizare pe mobil*/
+
+@media (max-width:768px);
+
